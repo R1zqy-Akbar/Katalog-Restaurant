@@ -1,0 +1,81 @@
+.title {
+  margin: 40px 0;
+  text-align: center;
+}
+
+#restaurants {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 80px;
+  padding: 0 20px;
+}
+
+.card {
+  width: 100%;
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+
+  .card-img {
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+  }
+
+  .card-title {
+    color: #db0000;
+    font-size: 1.3rem;
+    display: inline-block;
+    min-width: 44px;
+    min-height: 44px;
+    margin-bottom: 4px;
+    padding: 6px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+
+  .rating{
+    padding: 8px;
+    bottom: 20px;
+    left: 0;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    align-items: first baseline;
+  }
+  .deskripsi {
+    margin-top: 5px;
+    margin-bottom: 1px;
+    color: black;
+    text-align: justify;
+  }
+}
+
+.info {
+  padding: 16px;
+}
+
+.info h3 a{
+  color: #db0000;
+    font-size: 1.3rem;
+    display: inline-block;
+    min-width: 44px;
+    min-height: 44px;
+    margin-bottom: 4px;
+    padding: 6px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.deskripsi {
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}

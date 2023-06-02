@@ -1,0 +1,210 @@
+@media screen and (min-width: 1400px) and (max-width: 1399.98px) {
+  .jumbotron {
+    min-width: 1400px;
+    height: 91vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+
+  .container {
+    z-index: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1199.98px) {
+  .jumbotron {
+    min-width: 1200px;
+    height: 91vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+
+  .container {
+    z-index: 0;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 991.98px) {
+  .food {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 0;
+  }
+
+  #restaurant {
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+  }
+
+  .jumbotron {
+    height: 91vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+
+  .app-bar .brand h1 {
+    font-size: 2em;
+  }
+
+  .add-review {
+    grid-template-columns: .6fr;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 767.98px) {
+  .food {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 0;
+  }
+
+  .jumbotron {
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+
+  #restaurant {
+    grid-template-columns: 1fr;
+  }
+
+  .add-review {
+    grid-template-columns: .6fr;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 575.98px) {
+  .food {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    margin: 0;
+  }
+
+  .scroll {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .open {
+    transform: translate(0, 0) !important;
+  }
+
+  .app-bar {
+    grid-template-columns: 1fr auto;
+    padding: 8px 32px;
+
+    .brand h1 {
+      font-size: 1.5em;
+    }
+
+    .menu {
+      display: none;
+    }
+
+    .navigation {
+      position: static;
+      width: 100%;
+
+      ul li {
+        display: inline-block;
+
+        a {
+          display: inline-block;
+          width: 120px;
+          text-align: center;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .nav {
+    position: fixed;
+    transition: 0.9s all;
+
+    .container {
+      width: 100%;
+      border-radius: 0;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      border: 1px solid rgba(29, 29, 29, 0.3);
+
+      .logo {
+        font-size: 24px;
+        margin-left: 30px;
+      }
+
+      button {
+        display: block;
+      }
+
+      .link {
+        top: 70px;
+        width: 100%;
+        display: grid;
+        position: fixed;
+        transform: translate(0, -180%);
+        transition: transform 0.3s ease;
+        background-color: rgba(255, 255, 255, 1);
+
+        .item {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+
+          a {
+            display: block;
+            width: 100%;
+            color: black;
+            font-size: 22px;
+            padding: 10px;
+          }
+
+          &:hover {
+            border-bottom: 4px solid black;
+          }
+        }
+      }
+    }
+  }
+
+  .add-review {
+    grid-template-columns: .6fr;
+  }
+
+  .jumbotron {
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    // background-image: url('/dist/heros/hero-image_2-small.jpg');
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+}

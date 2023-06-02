@@ -1,0 +1,68 @@
+.app-bar {
+  padding: 8px 16px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #hamburgerButton {
+      background-color: transparent;
+      border: none;
+      height: 44px;
+      width: 44px;
+      font-size: 25px;
+      padding: 5px;
+      cursor: pointer;
+      color: black;
+    }
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+
+    .brand-title {
+      color: red;
+      
+      font-size: 24px;
+      user-select: none;
+    }
+
+    
+  }
+
+  .navigation {
+    position: absolute;
+    top: 50px;
+    left: -180px;
+    width: 150px;
+    transition: all 0.3s;
+    padding: 8px;
+    background-color: black;
+    overflow: hidden;
+
+    &.open {
+      left: 0;
+      
+    }
+
+    .page {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      height: 44px;
+      width: 70px;
+      padding: 0 40px;
+    }
+  }
+}

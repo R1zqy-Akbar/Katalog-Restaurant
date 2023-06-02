@@ -1,0 +1,18 @@
+.jumbotron {
+  width: 100%;
+  min-height: 380px;
+  background-size: cover;
+  background-position: center;
+  background-image: url('/src/public/heros/hero-image_2.jpg');
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.container {
+  z-index: 0;
+  font-size: xx-large;
+}

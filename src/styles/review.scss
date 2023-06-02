@@ -1,0 +1,17 @@
+.review-body {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.review-head {
+  text-align: center;
+}
+
+.add-review {
+  display: grid;
+  grid-template-columns: .4fr;
+  row-gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+

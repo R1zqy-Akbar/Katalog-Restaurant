@@ -1,0 +1,98 @@
+#restaurant {
+  margin-bottom: 20px;
+}
+
+.detail-body {
+  padding: 0 40px;
+}
+
+.resto-img {
+  min-height: 90vh;
+  width: 100%;
+}
+
+.judul {
+  text-align: center;
+  color: black;
+  margin: 20px 0;
+}
+
+.star {
+  height: 44px;
+  width: 44px;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: black;
+}
+
+.alamat,
+.resto-deskripsi,
+#review p,
+.categories p {
+  color: black;
+}
+
+.resto-deskripsi {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.menu-resto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  gap: 20px;
+}
+
+.list {
+  display: grid;
+  padding-top: 5px;
+  gap: 10px;
+}
+
+.category {
+  background-color: yellowgreen;
+  border: 5px solid yellowgreen;
+  border-radius: 10%;
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.categories {
+  margin-bottom: 10px;
+}
+
+.alamat {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.favorite h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 15px 0;
+}
+
+.like {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  border-radius: 50%;
+  border: 0;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
